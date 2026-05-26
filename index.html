@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoBook — A Rede Social dos Lojistas AutoZap</title>
+  <meta name="description" content="AutoBook é a comunidade fechada e exclusiva para lojistas de celular do ecossistema AutoZap. Publique, conecte-se e cresça." />
+  <link rel="icon" type="image/gif" href="logo.gif" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <img src="logo.gif" alt="AutoBook by AutoZap" class="nav-logo-img" />
+        <div class="logo-text">
+          <span class="logo-name">AutoBook</span>
+          <span class="logo-by">by AutoZap</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link">Início</a></li>
+        <li><a href="#como-funciona" class="nav-link">Como funciona</a></li>
+        <li><a href="#beneficios" class="nav-link">Benefícios</a></li>
+        <li><a href="#comunidade" class="nav-link">Comunidade</a></li>
+        <li><a href="#parceiros" class="nav-link">Parceiros</a></li>
+        <li><a href="#duvidas" class="nav-link">Dúvidas</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://autozap.log.br/" class="btn btn-primary nav-cta">Quero fazer parte</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav-mobile" id="navMobile">
+      <a href="#inicio" class="nav-mobile-link">Início</a>
+      <a href="#como-funciona" class="nav-mobile-link">Como funciona</a>
+      <a href="#beneficios" class="nav-mobile-link">Benefícios</a>
+      <a href="#comunidade" class="nav-mobile-link">Comunidade</a>
+      <a href="#parceiros" class="nav-mobile-link">Parceiros</a>
+      <a href="#duvidas" class="nav-mobile-link">Dúvidas</a>
+      <a href="https://autozap.log.br/" class="btn btn-primary" style="margin-top:8px;text-align:center;">Quero fazer parte</a>
+    </div>
+  </nav>
+
+  <!-- ===== AUTOBOOK HERO ===== -->
+  <section class="autobook-hero AutoBookHero" id="inicio" aria-label="AutoBook, a comunidade social dos lojistas de celulares">
+    <div class="autobook-hero-overlay" aria-hidden="true"></div>
+
+    <div class="autobook-hero-content">
+      <img
+        class="autobook-bot"
+        src="assets/autobook-bot.gif"
+        onerror="this.onerror=null;this.src='assets/autobook-bot.png';"
+        alt="Mascote AutoBook"
+      />
+
+      <div class="autobook-wordmark" aria-label="AutoBook">
+        <span>Auto</span><span>Book</span>
+      </div>
+
+      <p class="autobook-subtitle">A comunidade social dos lojistas de celulares</p>
+
+      <h1 class="autobook-headline">
+        <span class="headline-kicker">VENHA FAZER PARTE DA</span>
+        <span class="headline-family">FAMÍLIA</span>
+        <span class="headline-signature">AutoBook!</span>
+      </h1>
+
+      <div class="autobook-actions">
+        <a href="#cta-final" class="btn btn-primary btn-lg autobook-primary-cta">Entrar para o AutoBook</a>
+        <a href="#como-funciona" class="btn btn-ghost btn-lg autobook-secondary-cta">Conhecer comunidade</a>
+      </div>
+
+      <div class="hero-feature-icons" aria-label="Recursos da comunidade AutoBook">
+        <div class="FeatureIcon feature-icon-item feature-icon-chat">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path fill-rule="evenodd" d="M32 10C18.8 10 8 18.6 8 29.3c0 6.5 4.1 12.5 10.7 16l-1.5 7.9c-.2 1.2.3 2.4 1.4 3.1.5.3 1.1.5 1.7.5.6 0 1.2-.2 1.7-.5l9-7.7h1c13.2 0 24-8.6 24-19.3S45.2 10 32 10Zm0 32.7h-2.2l-5.5 4.7.8-4.5-2.3-1C17.5 39.7 14 34.7 14 29.3 14 21.9 22.1 16 32 16s18 5.9 18 13.3-8.1 13.4-18 13.4Zm-9-13.4a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm9 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm9 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" clip-rule="evenodd"/></svg>
+          <span>Converse</span>
+        </div>
+        <div class="FeatureIcon feature-icon-item feature-icon-share">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path fill-rule="evenodd" d="M45.5 8a10.5 10.5 0 0 0-10.2 13L25.1 27a10.5 10.5 0 1 0 0 10l10.2 6a10.5 10.5 0 1 0 3.1-5.1l-10.2-6 10.2-6A10.5 10.5 0 1 0 45.5 8Zm0 6a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9ZM18.5 27.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Zm27 13.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Z" clip-rule="evenodd"/></svg>
+          <span>Compartilhe</span>
+        </div>
+        <div class="FeatureIcon feature-icon-item feature-icon-connect">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 31.5a10.5 10.5 0 1 0-10.5-10.5A10.5 10.5 0 0 0 24 31.5Zm0-15.3a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Zm19.5 17.3A9.5 9.5 0 1 0 34 24a9.5 9.5 0 0 0 9.5 9.5Zm0-13.3a3.8 3.8 0 1 1 0 7.6 3.8 3.8 0 0 1 0-7.6ZM24 35.7c-11 0-18.5 5.7-18.5 14.2V54h37v-4.1c0-8.5-7.4-14.2-18.5-14.2Zm-12.2 12.6c1-4.3 5.6-6.9 12.2-6.9s11.2 2.6 12.2 6.9H11.8Zm31.7-11c-2.4 0-4.7.3-6.8 1a16 16 0 0 1 5 5.4h10.5c-.8-3.7-4.1-6.4-8.7-6.4Z"/></svg>
+          <span>Conecte-se</span>
+        </div>
+        <div class="FeatureIcon feature-icon-item feature-icon-heart">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 55.5 12.7 37C3.3 27.9 9.8 12 22.9 12c4.2 0 7.3 1.8 9.1 4.4C33.8 13.8 36.9 12 41.1 12c13.1 0 19.6 15.9 10.2 25L32 55.5Z"/></svg>
+          <span>Faça amizades</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== METRICS STRIP ===== -->
+  <section class="metrics-strip">
+    <div class="metrics-container">
+      <div class="metric-item reveal">
+        <span class="metric-number gradient-text">+500</span>
+        <span class="metric-label">Lojistas ativos na comunidade</span>
+      </div>
+      <div class="metric-divider"></div>
+      <div class="metric-item reveal">
+        <span class="metric-number gradient-text">+2.000</span>
+        <span class="metric-label">Publicações compartilhadas</span>
+      </div>
+      <div class="metric-divider"></div>
+      <div class="metric-item reveal">
+        <span class="metric-number gradient-text">+50</span>
+        <span class="metric-label">Parceiros anunciantes</span>
+      </div>
+      <div class="metric-divider"></div>
+      <div class="metric-item reveal">
+        <span class="metric-number gradient-text">1</span>
+        <span class="metric-label">Ranking mensal com premiações</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BENEFÍCIOS ===== -->
+  <section class="benefits" id="beneficios">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-tag">Benefícios</div>
+        <h2 class="section-title">Por que fazer parte do <span class="gradient-text">AutoBook?</span></h2>
+        <p class="section-subtitle">Uma comunidade construída para lojistas de celular que querem crescer, conectar e se destacar.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">👥</div>
+          <h3>Networking entre lojistas</h3>
+          <p>Conecte-se com donos de lojas de todo o Brasil, troque experiências e encontre parcerias reais.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">🖼️</div>
+          <h3>Publicações, fotos e vídeos</h3>
+          <p>Compartilhe novidades da sua loja, lançamentos, promoções, bastidores e conteúdos do seu negócio.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">▶️</div>
+          <h3>Reels do mercado de celulares</h3>
+          <p>Crie e assista vídeos curtos sobre tendências, aparelhos, manutenção, acessórios e vendas.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">💬</div>
+          <h3>Chat privado e conexões</h3>
+          <p>Converse diretamente com outros membros, tire dúvidas, negocie e crie relacionamentos de confiança.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">⭐</div>
+          <h3>Ranking e gamificação</h3>
+          <p>Participe do ranking mensal, ganhe pontos por engajamento e dispute prêmios exclusivos.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">🛍️</div>
+          <h3>Oportunidades com fornecedores</h3>
+          <p>Acesse ofertas, lançamentos e anúncios exclusivos de fornecedores parceiros dentro da comunidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMO FUNCIONA ===== -->
+  <section class="how-it-works" id="como-funciona">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-tag">Passo a passo</div>
+        <h2 class="section-title">Como <span class="gradient-text">funciona</span></h2>
+        <p class="section-subtitle">Do acesso ao crescimento — quatro etapas simples para fazer parte da maior comunidade de lojistas de celular do Brasil.</p>
+      </div>
+
+      <div class="steps-container">
+        <div class="step reveal">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon-wrap">📱</div>
+            <h3>Tenha acesso pelo ecossistema AutoZap</h3>
+            <p>O AutoBook é exclusivo para usuários AutoZap, mantendo a comunidade fechada, qualificada e segura.</p>
+          </div>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon-wrap">👤</div>
+            <h3>Crie seu perfil de loja</h3>
+            <p>Adicione informações da sua loja, região, especialidades, fotos e descrição do negócio.</p>
+          </div>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon-wrap">✍️</div>
+            <h3>Publique, interaja e apareça</h3>
+            <p>Poste novidades, comente publicações, envie mensagens e participe dos reels do nicho.</p>
+          </div>
+        </div>
+        <div class="step reveal">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon-wrap">📈</div>
+            <h3>Cresça com a comunidade</h3>
+            <p>Ganhe visibilidade, faça conexões e aumente sua presença dentro do mercado de celulares.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FUNCIONALIDADES ===== -->
+  <section class="features" id="comunidade">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-tag">Funcionalidades</div>
+        <h2 class="section-title">Tudo que sua loja precisa<br/><span class="gradient-text">em uma comunidade só</span></h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal"><div class="feature-icon">📱</div><h4>Feed de publicações</h4><p>Poste textos, fotos e atualizações em tempo real para toda a comunidade.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">🎬</div><h4>Reels do nicho</h4><p>Vídeos curtos e dinâmicos exclusivamente sobre o mercado de celulares.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">💬</div><h4>Chat entre membros</h4><p>Mensagens privadas para criar relações diretas com outros lojistas.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">🏆</div><h4>Ranking mensal</h4><p>Classificação por pontos de engajamento com premiações para os primeiros.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">📣</div><h4>Anúncios de fornecedores</h4><p>Espaço para parceiros divulgarem produtos e ofertas diretas para lojistas.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">📈</div><h4>Tendências e novidades</h4><p>Acompanhe o que está movimentando o mercado de celulares em tempo real.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">🏪</div><h4>Perfil da loja</h4><p>Página completa com informações, especialidades, foto e localização da sua loja.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">🔒</div><h4>Comunidade fechada</h4><p>Acesso restrito ao ecossistema AutoZap, garantindo qualidade dos membros.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">⭐</div><h4>Sistema de pontos</h4><p>Cada interação gera pontos que impulsionam sua posição no ranking.</p></div>
+        <div class="feature-card reveal"><div class="feature-icon">⚡</div><h4>Integração AutoZap</h4><p>Totalmente integrado ao ecossistema AutoZap para uma experiência unificada.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RANKING ===== -->
+  <section class="ranking-section" id="ranking">
+    <div class="section-container">
+      <div class="ranking-grid">
+        <div class="ranking-content reveal">
+          <div class="section-tag">Gamificação</div>
+          <h2 class="section-title">Ranking mensal<br/>com <span class="gradient-text">premiações</span></h2>
+          <p class="section-subtitle" style="text-align:left;">No AutoBook, participação vira reconhecimento. Lojistas que interagem, publicam e movimentam a comunidade acumulam pontos no ranking mensal. O primeiro colocado pode receber prêmios físicos exclusivos.</p>
+          <div class="ranking-badges">
+            <div class="rank-badge"><span>🥇</span><span>Top 1 do mês</span></div>
+            <div class="rank-badge"><span>🎁</span><span>Premiação física</span></div>
+            <div class="rank-badge"><span>👁️</span><span>Mais visibilidade</span></div>
+          </div>
+        </div>
+
+        <div class="ranking-mockup reveal">
+          <div class="rank-card-wrap">
+            <div class="rank-card-title"><span>🏆</span> Ranking — Maio 2026</div>
+            <div class="rank-list">
+              <div class="rank-row rank-row-1"><div class="rank-medal">🥇</div><div class="rank-info"><span class="rank-store-name">TechStore Oficial</span><div class="rank-bar-wrap"><div class="rank-bar" style="width:100%"></div></div></div><div class="rank-score">12.450 pts</div></div>
+              <div class="rank-row"><div class="rank-medal">🥈</div><div class="rank-info"><span class="rank-store-name">Cell Prime</span><div class="rank-bar-wrap"><div class="rank-bar" style="width:79%"></div></div></div><div class="rank-score">9.870 pts</div></div>
+              <div class="rank-row"><div class="rank-medal">🥉</div><div class="rank-info"><span class="rank-store-name">Smart Cell</span><div class="rank-bar-wrap"><div class="rank-bar" style="width:66%"></div></div></div><div class="rank-score">8.230 pts</div></div>
+            </div>
+            <div class="rank-footer"><div class="rank-crown-badge">👑 Primeiro lugar ganha prêmio físico exclusivo</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARCEIROS ===== -->
+  <section class="partners-section" id="parceiros">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-tag">Para fornecedores</div>
+        <h2 class="section-title">Um novo canal para fornecedores<br/><span class="gradient-text">alcançarem lojistas reais</span></h2>
+        <p class="section-subtitle">O AutoBook também cria um espaço estratégico para fornecedores divulgarem produtos, lançamentos, acessórios, peças e oportunidades diretamente para um público qualificado: lojistas de celulares que já estão dentro do ecossistema AutoZap.</p>
+      </div>
+
+      <div class="partners-grid">
+        <div class="partner-card reveal"><div class="partner-card-header"><div class="partner-avatar" style="background: linear-gradient(135deg, #0ea5e9, #6366f1)">IC</div><div class="partner-badge">Parceiro Destaque</div></div><h4>InovaCell Atacado</h4><p>Distribuidor de smartphones, acessórios e peças com preços exclusivos para lojistas AutoZap.</p><a href="#" class="btn btn-outline-sm">Ver ofertas →</a></div>
+        <div class="partner-card reveal"><div class="partner-card-header"><div class="partner-avatar" style="background: linear-gradient(135deg, #10b981, #0ea5e9)">PS</div><div class="partner-badge">Parceiro</div></div><h4>PrimeShield Películas e Capas</h4><p>Películas de hidrogel, vidros temperados e capas premium para as principais marcas do mercado.</p><a href="#" class="btn btn-outline-sm">Ver ofertas →</a></div>
+        <div class="partner-card reveal"><div class="partner-card-header"><div class="partner-avatar" style="background: linear-gradient(135deg, #f59e0b, #ef4444)">TC</div><div class="partner-badge">Parceiro</div></div><h4>TopCell Distribuidora</h4><p>Lotes de smartphones importados e recondicionados com garantia e suporte para revendedores.</p><a href="#" class="btn btn-outline-sm">Ver ofertas →</a></div>
+      </div>
+
+      <div class="partners-cta reveal">
+        <div class="partners-cta-text">
+          <h3>Quer anunciar no AutoBook?</h3>
+          <p>Alcance centenas de lojistas qualificados que estão ativos no mercado de celulares.</p>
+        </div>
+        <a href="#cta-final" class="btn btn-primary btn-lg">Quero anunciar no AutoBook</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq-section" id="duvidas">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-tag">Dúvidas</div>
+        <h2 class="section-title">Perguntas <span class="gradient-text">frequentes</span></h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>O AutoBook é gratuito?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" width="18" height="18"><polyline points="6,9 12,15 18,9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer"><p>O acesso ao AutoBook faz parte do ecossistema AutoZap. Se você já é usuário AutoZap, o acesso está incluído na sua conta.</p></div></div>
+        <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>Quem pode participar do AutoBook?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" width="18" height="18"><polyline points="6,9 12,15 18,9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer"><p>O AutoBook é exclusivo para lojistas e donos de lojas de celular que fazem parte do ecossistema AutoZap. A comunidade é fechada para garantir qualidade e relevância dos membros.</p></div></div>
+        <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>Como funciona o ranking mensal?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" width="18" height="18"><polyline points="6,9 12,15 18,9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer"><p>Cada publicação, curtida, comentário e interação dentro do AutoBook gera pontos para o seu perfil. Ao final do mês, os lojistas com mais pontos aparecem no topo do ranking.</p></div></div>
+        <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>Como fornecedores podem anunciar?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" width="18" height="18"><polyline points="6,9 12,15 18,9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer"><p>Fornecedores e distribuidores do mercado de celulares podem se tornar parceiros do AutoBook e anunciar produtos, promoções e lançamentos diretamente para lojistas qualificados.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA FINAL ===== -->
+  <section class="cta-final" id="cta-final">
+    <div class="cta-bg">
+      <div class="cta-glow-1"></div>
+      <div class="cta-glow-2"></div>
+    </div>
+    <div class="section-container">
+      <div class="cta-content reveal">
+        <div class="section-tag">Faça parte</div>
+        <h2 class="cta-title">
+          Entre para a comunidade que vai<br/>
+          <span class="gradient-text">movimentar o varejo de celulares.</span>
+        </h2>
+        <p class="cta-subtitle">
+          AutoBook é o ponto de encontro dos lojistas AutoZap: uma rede social fechada, estratégica e criada para gerar conexão, visibilidade e oportunidade.
+        </p>
+        <a href="https://autozap.log.br/" class="btn btn-primary btn-xl">Quero fazer parte agora</a>
+        <p class="cta-note">Acesso exclusivo para usuários do ecossistema AutoZap.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:12px">
+          <img src="logo.gif" alt="AutoBook by AutoZap" class="nav-logo-img" />
+          <div class="logo-text">
+            <span class="logo-name">AutoBook</span>
+            <span class="logo-by">by AutoZap</span>
+          </div>
+        </div>
+        <p class="footer-desc">A comunidade exclusiva dos lojistas AutoZap.</p>
+        <p class="footer-integration">Integrado ao ecossistema AutoZap.</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Plataforma</h5>
+          <a href="#inicio">Início</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#beneficios">Benefícios</a>
+          <a href="#comunidade">Comunidade</a>
+        </div>
+        <div class="footer-col">
+          <h5>Mais</h5>
+          <a href="#parceiros">Parceiros</a>
+          <a href="#duvidas">Dúvidas</a>
+          <a href="#">Termos de uso</a>
+          <a href="#">Privacidade</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 AutoBook. Todos os direitos reservados. Parte do ecossistema AutoZap.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
